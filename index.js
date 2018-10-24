@@ -12,4 +12,9 @@ const returnLastTwoDrivers = function(arr) {
   
    return newArr;
 };
-
+function selectingDrivers(drivers){
+  newArr=[];
+  newArr[0]=returnFirstTwoDrivers(drivers);
+  newArr[1]=returnLastTwoDrivers(drivers);
+  return newArr;
+}
