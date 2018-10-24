@@ -18,5 +18,8 @@ const returnLastTwoDrivers = function(arr) {
     returnLastTwoDrivers];
   
   function createMultiplier(num) {
-    return function(fare){num*fare};
+    return function(fare){
+      return num*fare
+      
+    };
   }
