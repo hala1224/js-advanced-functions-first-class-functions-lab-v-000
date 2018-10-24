@@ -17,3 +17,6 @@ const returnLastTwoDrivers = function(arr) {
     returnFirstTwoDrivers,
     returnLastTwoDrivers];
   
+  function createMultiplier(num) {
+    
+  }
