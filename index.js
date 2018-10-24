@@ -17,5 +17,5 @@ function selectingDrivers(drivers){
     returnFirstTwoDrivers(drivers),
     returnLastTwoDrivers(drivers)
   ];
-  return newArr;
+  // return newArr;
 }
