@@ -25,7 +25,7 @@ const returnLastTwoDrivers = function(arr) {
   }
   
   const fareDoubler = function(num){
-    const doubleFare=2*createFareMultiplier;
+    const doubleFare=createFareMultiplier(2);
     doubleFare(num);
   
   }
