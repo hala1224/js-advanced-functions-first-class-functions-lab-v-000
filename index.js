@@ -24,7 +24,7 @@ const returnLastTwoDrivers = function(arr) {
     };
   }
   
-  const fareDoubler = function(){
+  const fareDoubler = function(num){
     doubleFare=createFareMultiplier;
     
   
