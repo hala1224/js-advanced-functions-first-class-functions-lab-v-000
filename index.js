@@ -29,7 +29,8 @@ const returnLastTwoDrivers = function(arr) {
 
 const fareTripler = createFareMultiplier(3);
 
- const fetchSpecifiedDrivers = function(func, drivers) {
+ const fetchSpecifiedDrivers = function(arrayOfDrivers, func) {
+   
    
    func(drivers);
    
